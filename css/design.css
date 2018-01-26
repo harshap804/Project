@@ -1,0 +1,180 @@
+.jumbotron {
+      background-color:cadetblue;
+      color: #fff;
+  }
+
+.navbar {
+    margin-bottom: 0;
+    background-color:cadetblue;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+    padding: 60px 80px;
+}
+
+.container-fluid {
+    padding: 60px 80px;
+}
+.container-admin{
+    padding: 60px 80px;
+}
+
+
+
+
+.container-visitor{
+  padding: 60px 80px;
+}
+
+.bouton-contact{
+  background-color: cadetblue;
+  color: #fff;
+  width: 70px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+  left:1%
+}
+
+.logo {
+    font-size: 200px;
+}
+
+.logo-small {
+    color: cadetblue;
+    font-size: 50px;
+}
+
+
+.logo {
+    color: #F20000;
+    font-size: 200px;
+}
+
+.leftcontact {
+  width:49.5%; 
+  float:left;
+  border-right: 1px dotted #CCC;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+  width:49.5%;
+  float:right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+
+.textarea {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #EEE;
+  margin: 0;
+  width: 75%;
+  height: 130px; 
+  float: left;
+  padding: 0px 15px;
+}
+
+
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.icon{
+  color: #f4511e;
+}
+
+
+.i {
+  color:#555;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+.button {
+    background-color: #f44336;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 4px;
+    color:white;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+.tdlab {
+    text-align:right;
+    padding-right:30px;
+    width:50%
+}
+.tdtext {
+    text-align:left;
+}
+.hlabel {
+    font-family:Castellar;
+    font-weight:bold;
+    font-size:larger;
+}
+.lab {
+    font-family:Arial;
+}
+/*input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}*/
